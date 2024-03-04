@@ -1,10 +1,10 @@
 import expres, { Request, Response } from "express";
 
-( () => {
-  main();
-})();
+// ( () => {
+//   main();
+// })();
 
-function main() {
+export function main() {
   const app = expres();
   
 
