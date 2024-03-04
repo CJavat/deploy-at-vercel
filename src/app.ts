@@ -1,8 +1,8 @@
 import expres, { Request, Response } from "express";
 
-// ( () => {
-//   main();
-// })();
+( () => {
+  main();
+})();
 
 export function main() {
   const app = expres();
