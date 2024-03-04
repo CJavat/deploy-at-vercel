@@ -5,5 +5,10 @@
       "destination": "/src/app.js"
     }
   ],
+  "functions": {
+    "src/*": {
+      "runtime": "@vercel/node"
+    }
+  },
   "outputDirectory": "dist"
 }
